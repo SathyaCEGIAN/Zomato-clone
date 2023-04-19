@@ -1,0 +1,100 @@
+.explore-card {
+    margin: 12px 0px 24px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+
+}
+
+.explore-card-cover {
+    height: 248px;
+    width: 328px;
+    border-radius: 15px;
+    position: relative;
+
+}
+
+.explore-card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.delivery-time {
+    position: absolute;
+  
+    opacity: 0.8;
+    background-color: grey;
+    backdrop-filter: blur(4px);
+    font-weight: 12px;
+    padding: 2px 5px 3px;
+    border-radius: 4px;
+    bottom: 10px;
+    right: 4px;
+}
+
+.pro-off{
+    /* position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px; */
+    position: absolute;
+    bottom: 20px;
+    left: 0%;
+    background-color: var(--tag-red);
+    color: var(--primary-bg);
+    font-size: 14px;
+    padding : 2px 5px 3px;;
+    border-radius: 0px 2px 2px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 10px;
+    font-weight: 500;
+
+}
+
+.discount {
+    position: absolute;
+    bottom: 50px;
+    right: 4px;
+    background-color: green;
+}
+
+.price {
+    height: 20px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgb(132, 217, 243);
+    
+}
+
+.recepie-name{
+    font-size: large;
+    font-weight: 600;
+}
+
+.rating {
+    height: 20px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    font-weight: 300;
+}
+.footer-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.addToCartBttn {
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    background-color: lavender;
+    font-weight: bold;
+}
